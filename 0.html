@@ -1,0 +1,21 @@
+<!-- /dist/index.html --> 
+<!doctype html>
+  <html>
+   <head>
+     <title>vue</title>
+   </head>
+   <body> 
+    <div id="root" style="white-space: pre;">
+        {{message}}
+    </div>
+    <script src="./lib/vue.js"></script>
+    <script>
+        var app = new Vue({
+            el: '#root',
+            data: {
+                message: 'Hello Vue!'
+            }
+        })
+    </script>
+   </body>
+  </html>
